@@ -1,0 +1,68 @@
+.drag_and_drop {
+}
+.drag_and_drop .row {
+}
+.drag_and_drop .row ul {
+}
+.drag_and_drop .row ul li {
+  border: 3px solid rgba(0, 0, 0, 0.25);
+  margin: 2px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.drag_and_drop .row ul li div {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drag_and_drop .row ul li div img {
+  height: 120%;
+}
+
+.drag_and_drop .row ul li p {
+  padding-left: 5px;
+}
+
+.drag_and_drop .row ul:nth-child(even) {
+  background-color: aquamarine;
+}
+.drag_and_drop .row ul:nth-child(odd) {
+  background-color: blanchedalmond;
+}
+
+.image img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.sampleListIsDragging {
+  user-select: none;
+  padding: 16;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 8px 0;
+  min-height: 50px;
+  color: white;
+  background-color: #263b4a;
+}
+.sampleList {
+  user-select: none;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 8px 0;
+  min-height: 50px;
+  color: white;
+  background-color: #456c86;
+}
+
+.title {
+  padding: 10px;
+}
